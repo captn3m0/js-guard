@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "BrowserJSGuard",
+  "version": "4.0.2",
+
+  "description":"An Addon for Detecting Malicious and Suspicious Webpages.",
+  "icons":{"128":"icon_128.png"},
+
+  "background":
+	{"scripts":["background_script.js"]},
+
+  "content_scripts": [{"all_frames":false,
+			"matches":["<all_urls>"],
+			"js":["jquery.js","user_alert.js","content_script.js", "purify.min.js"],
+			"run_at":"document_start"}
+		     ],
+
+  "browser_action":{"default_icon":"cdac18.png","default_title":"Webpage Behavior Report","default_popup": "popup/popup.html"},
+
+  "author": "C-DAC, Hyderabad",
+ 
+  "applications": {
+    "gecko": {
+      "id": "jid1-iazLAsIkHmx2Vw@jetpack"
+    }
+  },
+
+  "permissions":["tabs","activeTab","<all_urls>","webRequest", "webRequestBlocking", "storage", "webNavigation"]
+
+}

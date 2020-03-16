@@ -1,0 +1,28 @@
+
+.large-text {
+	font-size: 120%;
+}
+
+.version-changes {
+	position: relative;
+	left: 5%;
+}
+.list-title {
+	margin:0cm 0cm 0cm 1.8cm;
+	font-size: 115%;
+	font-weight: bold;
+	color: rgb(30, 100, 255);
+}
+html {
+	background: linear-gradient(to bottom, rgb(220, 245, 255), rgb(255, 255, 255));
+}
+
+
+#JSGuard-icon {
+	vertical-align: middle;
+	float: left;
+	margin-top: 10pt;
+	margin-right: 30pt;
+	margin-bottom: 10pt;
+	margin-left: 10pt;
+}

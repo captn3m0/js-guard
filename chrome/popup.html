@@ -1,0 +1,121 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+<head>
+
+<script type="text/javascript" src="popup.js"></script>
+
+<div id="cdac_header"><img src="header.png"/></div>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript" src="ddaccordion.js">
+
+</script>
+<link rel="stylesheet" type="text/css" href="popup.css" />
+
+<script type="text/javascript" src="ddaccordion2.js">
+
+
+</script>
+
+
+<style type="text/css">
+
+.applemenu{
+margin: 0 0;
+padding: 0;
+}
+
+.applemenu div.silverheader a{
+background: black url(silvergradient.gif) repeat-x center left;
+font: normal 12px Tahoma, "Lucida Grande", "Trebuchet MS", Helvetica, sans-serif;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 5px 0;
+padding-left: 8px;
+text-decoration: none;
+}
+
+
+.applemenu div.silverheader a:visited, .applemenu div.silverheader a:active{
+color: white;
+}
+
+
+.applemenu div.selected a, .applemenu div.silverheader a:hover{
+background-image: url(silvergradientover.gif);
+color: white;
+}
+
+.applemenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+padding: 5px;
+height: 200px; /*Height that applies to all sub menu DIVs. A good idea when headers are toggled via "mouseover" instead of "click"*/
+overflow:auto;
+}
+
+</style>
+
+<div class="applemenu">
+
+<div id="cdac_domain" >No Webpage has been Loaded</div>
+
+
+<div class="silverheader">
+<div id="cdac_menuone" style="float:left;">Hidden iframe(s) Redirections</div>
+<div id='topCountone' style="float:right;" >  </div>
+</div>
+    <div id="cdac_one" class="submenu">
+    No Hidden iframes<br />
+    </div>
+
+<div class="silverheader">
+<div id="cdac_menutwo" style="float:left;">UnAuthorized Redirections</div>
+<div id='topCounttwo' style="float:right;"></div>
+</div>
+	<div id="cdac_two" class="submenu">
+	No UnAuthorized Redirections<br />
+	</div>
+
+<div class="silverheader">
+<div id="cdac_menuthree" style="float:left;">Encoded JavaScript</div>
+<div id='topCountthree' style="float:right;">  </div>
+</div>
+	<div id="cdac_three" class="submenu">
+	No Encoded JavaScript Present<br />
+	</div>
+
+<div class="silverheader">
+<div id="cdac_menufour" style="float:left;">External Domain Requests</div>
+<div id='topCountfour' style="float:right;">  </div>
+</div>
+    <div id="cdac_four" class="submenu">
+	No External Domain Requests<br />
+	</div>
+
+<div class="silverheader">
+<div id="cdac_menufive" style="float:left;">Trackers</div>
+<div id='topCountfive' style="float:right;">  </div>
+</div>
+	<div id="cdac_five" class="submenu">
+	No Trackers found<br />
+	</div>
+
+<div id="cdac_footer">Supported by MeitY & CERT-In, Govt. of India</div>
+<div id="cdac_footer1" >Provide Feedback <a href="http://infosecawareness.in/feedback/jsguard" target="_blank">Here</a></div>
+</div>
+</head>
+
+
+<body>
+
+<script type="text/javascript" src="updatepopup.js">
+
+</script>
+
+
+</body>
+</html>

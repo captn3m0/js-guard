@@ -1,0 +1,1 @@
+var data = {	'name': 'DocumentComplete',	'url': document.location.href};chrome.extension.sendRequest(extend({	'action':'ci_browser_DocumentComplete'}, data), function(data){	framework.browser.fireEvent('DocumentComplete', data);});function extend(target, object) {	for(var x in object)		target[x] = object[x];	return target;}

@@ -1,0 +1,16 @@
+﻿<html>
+	<head>
+		<script>
+			function install_notice() {
+			    if (localStorage.getItem('install_time'))
+			        return;
+
+			    var now = new Date().getTime();
+			    localStorage.setItem('install_time', now);
+			    chrome.tabs.create({url: "release-notes.html"});
+			}
+			install_notice();		
+		</script>
+	</head>
+	<body></body>
+</html>

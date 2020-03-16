@@ -1,0 +1,91 @@
+div#cdac_header {
+    background-color: #B40404;
+    height: 40px;
+    width: auto;  
+}
+div#cdac_domain {
+    background: #000000;
+    text-align: center;
+    color: #EEEEEE;
+    height: 40px;
+    padding: 5px 2px 5px 10px;
+    font-size: 11pt;
+    font-weight: bold;
+    padding-top: 5px;
+}
+div#cdac_footer {
+    background: #BDBDBD;
+    text-align: center;
+    color: #000000;
+    height: 15px;
+    padding: 5px 2px 5px 10px;
+    font-size: 8pt;
+    font-weight: bold;
+    padding-top: 5px;
+}
+div#cdac_footer1 {
+    background: #BDBDBD;
+    text-align: center;
+    color: #000000;
+    height: 10px;
+    padding: 5px 2px 5px 10px;
+    font-size: 7pt;
+    padding-top: 5px;
+}
+div.count{
+    background-image: url("Circle_red30.png");
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+}
+div.county{
+    background-image: url("Circle_yello30.png");
+    background-repeat: no-repeat;
+    color: black;
+    cursor: pointer;
+    float: right;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 35px;
+}
+div.silverheader:first-child {
+    margin-top: 0px;
+}
+
+div.silverheader {
+    cursor: pointer;
+    padding: 1px 3px;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    height:35px;
+    margin-top: 1px;
+    background: #e8f9ff;
+}
+div.silverheader:hover {
+    color: yellow;
+    background: #4450ff;
+}
+div.silverheader a:link, 
+div.silverheader a:visited, 
+div.silverheader a:hover { 
+    color: black; 
+    text-decoration: none; 
+} 
+div.silverheader:hover a:link, 
+div.silverheader:hover a:visited, 
+div.silverheader:hover a:hover { 
+    color: yellow; 
+    text-decoration: none; 
+} 
+
+
